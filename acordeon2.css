@@ -1,0 +1,44 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+section{
+	width: 100%;
+	background:#06142D;
+	height: 60px;
+}
+section h1{
+	color: white;
+	text-align: center;
+	padding:15px;
+	font-family: 'Work Sans', sans-serif;	
+}
+.boto div{
+width: 100%;
+	background: #06142D;
+	position: fixed;
+	bottom: 0;
+	height: 60px;
+	background: transparent;
+	/*=====*/
+}
+.bot button{
+	width: 50%;
+	height: 60px;
+	float: left;
+	bottom:0;
+	background: #1DCC82;
+	border-radius: 5px;
+	color:white;
+	font-family: 'Work Sans', sans-serif;
+}
+textarea{
+	width:100%;
+	height:calc(100% - 60px);
+	text-align: justify;
+	position: fixed;
+	font-family:'calibri';
+	font-size: 16px;
+	
+
+}

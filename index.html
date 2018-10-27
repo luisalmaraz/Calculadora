@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" type="text/css" href="Calculadora2.css">
+	<script type="text/javascript" src="Calculadora2.js"></script>
+</head>
+<body>
+<input placeholder="00" id="lol">
+<div class="A">
+		<button onclick="borrar()">CE</button>
+		<button onclick="concatenar()">+/-</button>
+		<button onclick="concatenar('%')">%</button>
+		<button onclick="concatenar('/')">/</button>
+</div>
+	<div class="B">
+		<button onclick="concatenar('x')">x</button>
+		<button onclick="concatenar('+')">+</button>
+		<button onclick="concatenar('-')">-</button>
+	</div>
+		<div class="C">
+		<button onclick="concatenar('7')">7</button>
+		<button onclick="concatenar('8')">8</button>
+		<button onclick="concatenar('9')">9</button>
+		<button onclick="concatenar('4')">4</button>
+		<button onclick="concatenar('5')">5</button>
+		<button onclick="concatenar('6')">6</button>
+		<button onclick="concatenar('1')">1</button>
+		<button onclick="concatenar('2')">2</button>
+		<button onclick="concatenar('3')">3</button>
+	</div>
+	<div class="D">
+		<button class="q" onclick="concatenar('.')">.</button>
+		<button class="w" onclick="concatenar('0')">0</button>
+		<button class="o" onclick="iguals()">=</button>
+	</div>
+
+</div>
+</body>
+</html>

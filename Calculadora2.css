@@ -1,0 +1,114 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background: pink;
+
+}
+
+body,html{
+	height: 100%;
+}
+
+input{
+	position: fixed;
+	width: 100%;
+	height: 20%;
+	font-size: 50px;
+	text-align: right;
+}
+
+.A {
+	position: fixed;
+	width: 100%;
+	height: 15%;
+	top: 20%;	
+	
+}
+
+	.A button{
+		float: left;
+		width: 25%;
+		height: 100%;
+		border: none;
+		background-color: #353A52;		
+		color: white; 
+		padding: 0px;
+		font-size: 40px;
+	}
+
+	
+
+	.B {
+	position: fixed;
+	width: 25%;
+	height: 45%;
+	top: 35%;		
+	left: 75%;
+}
+
+	.B button{
+		float: left;
+		width: 100%;
+		height: 33.33%;
+		border: none;
+		background-color: #353A52;		
+		color: white; 
+		padding: 0px;
+		font-size: 40px;
+
+	}
+
+.C{
+	position: fixed;
+	width: 75%;
+	height: 45%;
+	top:35%;	
+}
+
+	.C button{
+		float: left;
+		width: 33.33%;
+		height: 33.33%;
+		background-color: #2E303C;
+		color: white;
+		border: none;
+		font-size: 40px;
+	}
+
+
+.D{
+	position: fixed;
+	width: 100%;
+	height: 20%;
+	background-color:blue;
+	top:80%;
+}
+
+	.D button{
+		float: left;
+		height: 100%;
+		width: 33.33%;
+		border: none;
+		font-size: 40px;
+		color: white;
+	}
+
+		.o{
+			right: 0px;
+			height: 20%;
+			width: 40%;
+			background-color:#BB53E5 ;
+
+		}
+
+		.q{
+
+			background-color: #2E303C;
+		}
+
+		.w{
+			background-color: #2E303C;
+		}
